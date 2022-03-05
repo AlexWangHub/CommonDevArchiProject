@@ -6,6 +6,7 @@
 
 - YYKit
 - Colours
+- LazyScroll：自己的项目如果用 tableView 写相比直接画 View 开发速度会慢一些，但 tableView 好在可以自动回收。LazyScroll可以实现更方便自定义View的同时，也支持复用机制
 
 二、文件分类分类：
 
