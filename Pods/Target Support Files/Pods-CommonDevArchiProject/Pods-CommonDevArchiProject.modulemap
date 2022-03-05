@@ -1,0 +1,6 @@
+framework module Pods_CommonDevArchiProject {
+  umbrella header "Pods-CommonDevArchiProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

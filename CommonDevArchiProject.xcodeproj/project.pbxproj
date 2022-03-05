@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A94751C281509609E2E58C9 /* Pods_CommonDevArchiProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36170D526B7699A1A460F3E0 /* Pods_CommonDevArchiProject.framework */; };
 		60E0AF2727D367E200126FE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AF2627D367E200126FE9 /* AppDelegate.m */; };
 		60E0AF2A27D367E200126FE9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AF2927D367E200126FE9 /* SceneDelegate.m */; };
 		60E0AF2D27D367E200126FE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AF2C27D367E200126FE9 /* ViewController.m */; };
@@ -14,9 +15,17 @@
 		60E0AF3227D367E300126FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E0AF3127D367E300126FE9 /* Assets.xcassets */; };
 		60E0AF3527D367E300126FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60E0AF3327D367E300126FE9 /* LaunchScreen.storyboard */; };
 		60E0AF3827D367E300126FE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AF3727D367E300126FE9 /* main.m */; };
+		60E0AF4C27D3689B00126FE9 /* UIImage+EditTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AF4627D3689B00126FE9 /* UIImage+EditTool.m */; };
+		60E0AF4D27D3689B00126FE9 /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AF4827D3689B00126FE9 /* UIView+Extend.m */; };
+		60E0AF4E27D3689B00126FE9 /* UIView+ViewToolBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AF4927D3689B00126FE9 /* UIView+ViewToolBox.m */; };
+		60E0AF5327D368A600126FE9 /* BNRouterHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AF5127D368A600126FE9 /* BNRouterHelper.m */; };
+		60E0AF5427D368A600126FE9 /* BNUIBuildHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AF5227D368A600126FE9 /* BNUIBuildHelper.m */; };
+		60E0AF5927D3694200126FE9 /* MMUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AF5827D3694200126FE9 /* MMUIView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CFDE8007560A070F7318DDE /* Pods-CommonDevArchiProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonDevArchiProject.release.xcconfig"; path = "Target Support Files/Pods-CommonDevArchiProject/Pods-CommonDevArchiProject.release.xcconfig"; sourceTree = "<group>"; };
+		36170D526B7699A1A460F3E0 /* Pods_CommonDevArchiProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonDevArchiProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E0AF2227D367E200126FE9 /* CommonDevArchiProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonDevArchiProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E0AF2527D367E200126FE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		60E0AF2627D367E200126FE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +38,19 @@
 		60E0AF3427D367E300126FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60E0AF3627D367E300126FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60E0AF3727D367E300126FE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60E0AF4627D3689B00126FE9 /* UIImage+EditTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+EditTool.m"; sourceTree = "<group>"; };
+		60E0AF4727D3689B00126FE9 /* UIView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extend.h"; sourceTree = "<group>"; };
+		60E0AF4827D3689B00126FE9 /* UIView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extend.m"; sourceTree = "<group>"; };
+		60E0AF4927D3689B00126FE9 /* UIView+ViewToolBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewToolBox.m"; sourceTree = "<group>"; };
+		60E0AF4A27D3689B00126FE9 /* UIView+ViewToolBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewToolBox.h"; sourceTree = "<group>"; };
+		60E0AF4B27D3689B00126FE9 /* UIImage+EditTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+EditTool.h"; sourceTree = "<group>"; };
+		60E0AF4F27D368A600126FE9 /* BNUIBuildHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNUIBuildHelper.h; sourceTree = "<group>"; };
+		60E0AF5027D368A600126FE9 /* BNRouterHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRouterHelper.h; sourceTree = "<group>"; };
+		60E0AF5127D368A600126FE9 /* BNRouterHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRouterHelper.m; sourceTree = "<group>"; };
+		60E0AF5227D368A600126FE9 /* BNUIBuildHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNUIBuildHelper.m; sourceTree = "<group>"; };
+		60E0AF5727D3694200126FE9 /* MMUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMUIView.h; sourceTree = "<group>"; };
+		60E0AF5827D3694200126FE9 /* MMUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMUIView.m; sourceTree = "<group>"; };
+		B8BA483EB55E9CB6B08DF810 /* Pods-CommonDevArchiProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonDevArchiProject.debug.xcconfig"; path = "Target Support Files/Pods-CommonDevArchiProject/Pods-CommonDevArchiProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A94751C281509609E2E58C9 /* Pods_CommonDevArchiProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +70,8 @@
 			children = (
 				60E0AF2427D367E200126FE9 /* CommonDevArchiProject */,
 				60E0AF2327D367E200126FE9 /* Products */,
+				9721794A519F4E100A7D9D14 /* Pods */,
+				F31FC6EF961E25005C6273CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,12 +86,18 @@
 		60E0AF2427D367E200126FE9 /* CommonDevArchiProject */ = {
 			isa = PBXGroup;
 			children = (
+				60E0AF4527D3688900126FE9 /* System */,
+				60E0AF4427D3687E00126FE9 /* Helper */,
+				60E0AF4327D3687400126FE9 /* ViewController */,
+				60E0AF4227D3687000126FE9 /* ViewModel */,
+				60E0AF4127D3686C00126FE9 /* View */,
+				60E0AF4027D3686700126FE9 /* Manage */,
+				60E0AF3F27D3686300126FE9 /* CGI */,
+				60E0AF3E27D3685E00126FE9 /* Category */,
 				60E0AF2527D367E200126FE9 /* AppDelegate.h */,
 				60E0AF2627D367E200126FE9 /* AppDelegate.m */,
 				60E0AF2827D367E200126FE9 /* SceneDelegate.h */,
 				60E0AF2927D367E200126FE9 /* SceneDelegate.m */,
-				60E0AF2B27D367E200126FE9 /* ViewController.h */,
-				60E0AF2C27D367E200126FE9 /* ViewController.m */,
 				60E0AF2E27D367E200126FE9 /* Main.storyboard */,
 				60E0AF3127D367E300126FE9 /* Assets.xcassets */,
 				60E0AF3327D367E300126FE9 /* LaunchScreen.storyboard */,
@@ -76,6 +107,94 @@
 			path = CommonDevArchiProject;
 			sourceTree = "<group>";
 		};
+		60E0AF3E27D3685E00126FE9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				60E0AF4B27D3689B00126FE9 /* UIImage+EditTool.h */,
+				60E0AF4627D3689B00126FE9 /* UIImage+EditTool.m */,
+				60E0AF4727D3689B00126FE9 /* UIView+Extend.h */,
+				60E0AF4827D3689B00126FE9 /* UIView+Extend.m */,
+				60E0AF4A27D3689B00126FE9 /* UIView+ViewToolBox.h */,
+				60E0AF4927D3689B00126FE9 /* UIView+ViewToolBox.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		60E0AF3F27D3686300126FE9 /* CGI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CGI;
+			sourceTree = "<group>";
+		};
+		60E0AF4027D3686700126FE9 /* Manage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manage;
+			sourceTree = "<group>";
+		};
+		60E0AF4127D3686C00126FE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				60E0AF5727D3694200126FE9 /* MMUIView.h */,
+				60E0AF5827D3694200126FE9 /* MMUIView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		60E0AF4227D3687000126FE9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		60E0AF4327D3687400126FE9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				60E0AF2B27D367E200126FE9 /* ViewController.h */,
+				60E0AF2C27D367E200126FE9 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		60E0AF4427D3687E00126FE9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				60E0AF5027D368A600126FE9 /* BNRouterHelper.h */,
+				60E0AF5127D368A600126FE9 /* BNRouterHelper.m */,
+				60E0AF4F27D368A600126FE9 /* BNUIBuildHelper.h */,
+				60E0AF5227D368A600126FE9 /* BNUIBuildHelper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		60E0AF4527D3688900126FE9 /* System */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		9721794A519F4E100A7D9D14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8BA483EB55E9CB6B08DF810 /* Pods-CommonDevArchiProject.debug.xcconfig */,
+				1CFDE8007560A070F7318DDE /* Pods-CommonDevArchiProject.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F31FC6EF961E25005C6273CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36170D526B7699A1A460F3E0 /* Pods_CommonDevArchiProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60E0AF3B27D367E300126FE9 /* Build configuration list for PBXNativeTarget "CommonDevArchiProject" */;
 			buildPhases = (
+				BC5176932184BD8D375BB73D /* [CP] Check Pods Manifest.lock */,
 				60E0AF1E27D367E200126FE9 /* Sources */,
 				60E0AF1F27D367E200126FE9 /* Frameworks */,
 				60E0AF2027D367E200126FE9 /* Resources */,
+				6ADE361C9AC4B13159A7DB43 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,6 +262,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6ADE361C9AC4B13159A7DB43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CommonDevArchiProject/Pods-CommonDevArchiProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CommonDevArchiProject/Pods-CommonDevArchiProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CommonDevArchiProject/Pods-CommonDevArchiProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC5176932184BD8D375BB73D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CommonDevArchiProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		60E0AF1E27D367E200126FE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -149,7 +312,13 @@
 				60E0AF2D27D367E200126FE9 /* ViewController.m in Sources */,
 				60E0AF2727D367E200126FE9 /* AppDelegate.m in Sources */,
 				60E0AF3827D367E300126FE9 /* main.m in Sources */,
+				60E0AF4E27D3689B00126FE9 /* UIView+ViewToolBox.m in Sources */,
+				60E0AF5427D368A600126FE9 /* BNUIBuildHelper.m in Sources */,
+				60E0AF5327D368A600126FE9 /* BNRouterHelper.m in Sources */,
 				60E0AF2A27D367E200126FE9 /* SceneDelegate.m in Sources */,
+				60E0AF4D27D3689B00126FE9 /* UIView+Extend.m in Sources */,
+				60E0AF5927D3694200126FE9 /* MMUIView.m in Sources */,
+				60E0AF4C27D3689B00126FE9 /* UIImage+EditTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +458,7 @@
 		};
 		60E0AF3C27D367E300126FE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8BA483EB55E9CB6B08DF810 /* Pods-CommonDevArchiProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -316,6 +486,7 @@
 		};
 		60E0AF3D27D367E300126FE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CFDE8007560A070F7318DDE /* Pods-CommonDevArchiProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
