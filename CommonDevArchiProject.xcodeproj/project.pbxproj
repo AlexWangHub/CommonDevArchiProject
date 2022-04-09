@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0A94751C281509609E2E58C9 /* Pods_CommonDevArchiProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36170D526B7699A1A460F3E0 /* Pods_CommonDevArchiProject.framework */; };
+		607611132801B2CF003BD653 /* UIView+Extend.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6076110B2801B2CF003BD653 /* UIView+Extend.mm */; };
+		607611142801B2CF003BD653 /* UIView+ViewToolBox.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6076110C2801B2CF003BD653 /* UIView+ViewToolBox.mm */; };
+		607611152801B2CF003BD653 /* UIImage+EditTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6076110F2801B2CF003BD653 /* UIImage+EditTool.mm */; };
+		607611162801B2CF003BD653 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 607611102801B2CF003BD653 /* UIBarButtonItem+Extension.m */; };
+		607611172801B2CF003BD653 /* NSString+Interact.mm in Sources */ = {isa = PBXBuildFile; fileRef = 607611112801B2CF003BD653 /* NSString+Interact.mm */; };
+		607611182801B2CF003BD653 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 607611122801B2CF003BD653 /* UIView+Extension.m */; };
 		60E0AF2727D367E200126FE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AF2627D367E200126FE9 /* AppDelegate.m */; };
 		60E0AF2A27D367E200126FE9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AF2927D367E200126FE9 /* SceneDelegate.m */; };
 		60E0AF2D27D367E200126FE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AF2C27D367E200126FE9 /* ViewController.m */; };
@@ -15,9 +21,6 @@
 		60E0AF3227D367E300126FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E0AF3127D367E300126FE9 /* Assets.xcassets */; };
 		60E0AF3527D367E300126FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60E0AF3327D367E300126FE9 /* LaunchScreen.storyboard */; };
 		60E0AF3827D367E300126FE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AF3727D367E300126FE9 /* main.m */; };
-		60E0AF4C27D3689B00126FE9 /* UIImage+EditTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AF4627D3689B00126FE9 /* UIImage+EditTool.m */; };
-		60E0AF4D27D3689B00126FE9 /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AF4827D3689B00126FE9 /* UIView+Extend.m */; };
-		60E0AF4E27D3689B00126FE9 /* UIView+ViewToolBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AF4927D3689B00126FE9 /* UIView+ViewToolBox.m */; };
 		60E0AF5327D368A600126FE9 /* BNRouterHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AF5127D368A600126FE9 /* BNRouterHelper.m */; };
 		60E0AF5427D368A600126FE9 /* BNUIBuildHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AF5227D368A600126FE9 /* BNUIBuildHelper.m */; };
 		60E0AF5927D3694200126FE9 /* MMUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AF5827D3694200126FE9 /* MMUIView.m */; };
@@ -26,6 +29,18 @@
 /* Begin PBXFileReference section */
 		1CFDE8007560A070F7318DDE /* Pods-CommonDevArchiProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonDevArchiProject.release.xcconfig"; path = "Target Support Files/Pods-CommonDevArchiProject/Pods-CommonDevArchiProject.release.xcconfig"; sourceTree = "<group>"; };
 		36170D526B7699A1A460F3E0 /* Pods_CommonDevArchiProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonDevArchiProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		607611072801B2CF003BD653 /* UIImage+EditTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+EditTool.h"; sourceTree = "<group>"; };
+		607611082801B2CF003BD653 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		607611092801B2CF003BD653 /* UIView+ViewToolBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewToolBox.h"; sourceTree = "<group>"; };
+		6076110A2801B2CF003BD653 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		6076110B2801B2CF003BD653 /* UIView+Extend.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIView+Extend.mm"; sourceTree = "<group>"; };
+		6076110C2801B2CF003BD653 /* UIView+ViewToolBox.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIView+ViewToolBox.mm"; sourceTree = "<group>"; };
+		6076110D2801B2CF003BD653 /* UIView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extend.h"; sourceTree = "<group>"; };
+		6076110E2801B2CF003BD653 /* NSString+Interact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Interact.h"; sourceTree = "<group>"; };
+		6076110F2801B2CF003BD653 /* UIImage+EditTool.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+EditTool.mm"; sourceTree = "<group>"; };
+		607611102801B2CF003BD653 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		607611112801B2CF003BD653 /* NSString+Interact.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSString+Interact.mm"; sourceTree = "<group>"; };
+		607611122801B2CF003BD653 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		60E0AF2227D367E200126FE9 /* CommonDevArchiProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonDevArchiProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E0AF2527D367E200126FE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		60E0AF2627D367E200126FE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,12 +53,6 @@
 		60E0AF3427D367E300126FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60E0AF3627D367E300126FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60E0AF3727D367E300126FE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		60E0AF4627D3689B00126FE9 /* UIImage+EditTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+EditTool.m"; sourceTree = "<group>"; };
-		60E0AF4727D3689B00126FE9 /* UIView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extend.h"; sourceTree = "<group>"; };
-		60E0AF4827D3689B00126FE9 /* UIView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extend.m"; sourceTree = "<group>"; };
-		60E0AF4927D3689B00126FE9 /* UIView+ViewToolBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewToolBox.m"; sourceTree = "<group>"; };
-		60E0AF4A27D3689B00126FE9 /* UIView+ViewToolBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewToolBox.h"; sourceTree = "<group>"; };
-		60E0AF4B27D3689B00126FE9 /* UIImage+EditTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+EditTool.h"; sourceTree = "<group>"; };
 		60E0AF4F27D368A600126FE9 /* BNUIBuildHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNUIBuildHelper.h; sourceTree = "<group>"; };
 		60E0AF5027D368A600126FE9 /* BNRouterHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRouterHelper.h; sourceTree = "<group>"; };
 		60E0AF5127D368A600126FE9 /* BNRouterHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRouterHelper.m; sourceTree = "<group>"; };
@@ -65,6 +74,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		607610E12801B2C1003BD653 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				607610E22801B2C1003BD653 /* SVG */,
+				607610F32801B2C1003BD653 /* PNG */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		607610E22801B2C1003BD653 /* SVG */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SVG;
+			sourceTree = "<group>";
+		};
+		607610F32801B2C1003BD653 /* PNG */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PNG;
+			sourceTree = "<group>";
+		};
+		607611062801B2CF003BD653 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				607611072801B2CF003BD653 /* UIImage+EditTool.h */,
+				607611082801B2CF003BD653 /* UIView+Extension.h */,
+				607611092801B2CF003BD653 /* UIView+ViewToolBox.h */,
+				6076110A2801B2CF003BD653 /* UIBarButtonItem+Extension.h */,
+				6076110B2801B2CF003BD653 /* UIView+Extend.mm */,
+				6076110C2801B2CF003BD653 /* UIView+ViewToolBox.mm */,
+				6076110D2801B2CF003BD653 /* UIView+Extend.h */,
+				6076110E2801B2CF003BD653 /* NSString+Interact.h */,
+				6076110F2801B2CF003BD653 /* UIImage+EditTool.mm */,
+				607611102801B2CF003BD653 /* UIBarButtonItem+Extension.m */,
+				607611112801B2CF003BD653 /* NSString+Interact.mm */,
+				607611122801B2CF003BD653 /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		60E0AF1927D367E200126FE9 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +137,7 @@
 		60E0AF2427D367E200126FE9 /* CommonDevArchiProject */ = {
 			isa = PBXGroup;
 			children = (
+				607610E12801B2C1003BD653 /* Resources */,
 				60E0AF4527D3688900126FE9 /* System */,
 				60E0AF4427D3687E00126FE9 /* Helper */,
 				60E0AF4327D3687400126FE9 /* ViewController */,
@@ -93,7 +145,6 @@
 				60E0AF4127D3686C00126FE9 /* View */,
 				60E0AF4027D3686700126FE9 /* Manage */,
 				60E0AF3F27D3686300126FE9 /* CGI */,
-				60E0AF3E27D3685E00126FE9 /* Category */,
 				60E0AF2527D367E200126FE9 /* AppDelegate.h */,
 				60E0AF2627D367E200126FE9 /* AppDelegate.m */,
 				60E0AF2827D367E200126FE9 /* SceneDelegate.h */,
@@ -107,19 +158,6 @@
 			path = CommonDevArchiProject;
 			sourceTree = "<group>";
 		};
-		60E0AF3E27D3685E00126FE9 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				60E0AF4B27D3689B00126FE9 /* UIImage+EditTool.h */,
-				60E0AF4627D3689B00126FE9 /* UIImage+EditTool.m */,
-				60E0AF4727D3689B00126FE9 /* UIView+Extend.h */,
-				60E0AF4827D3689B00126FE9 /* UIView+Extend.m */,
-				60E0AF4A27D3689B00126FE9 /* UIView+ViewToolBox.h */,
-				60E0AF4927D3689B00126FE9 /* UIView+ViewToolBox.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
 		60E0AF3F27D3686300126FE9 /* CGI */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +168,7 @@
 		60E0AF4027D3686700126FE9 /* Manage */ = {
 			isa = PBXGroup;
 			children = (
+				607611062801B2CF003BD653 /* Category */,
 			);
 			path = Manage;
 			sourceTree = "<group>";
@@ -183,7 +222,6 @@
 				B8BA483EB55E9CB6B08DF810 /* Pods-CommonDevArchiProject.debug.xcconfig */,
 				1CFDE8007560A070F7318DDE /* Pods-CommonDevArchiProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -310,15 +348,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				60E0AF2D27D367E200126FE9 /* ViewController.m in Sources */,
+				607611172801B2CF003BD653 /* NSString+Interact.mm in Sources */,
+				607611182801B2CF003BD653 /* UIView+Extension.m in Sources */,
 				60E0AF2727D367E200126FE9 /* AppDelegate.m in Sources */,
+				607611142801B2CF003BD653 /* UIView+ViewToolBox.mm in Sources */,
 				60E0AF3827D367E300126FE9 /* main.m in Sources */,
-				60E0AF4E27D3689B00126FE9 /* UIView+ViewToolBox.m in Sources */,
 				60E0AF5427D368A600126FE9 /* BNUIBuildHelper.m in Sources */,
+				607611132801B2CF003BD653 /* UIView+Extend.mm in Sources */,
+				607611162801B2CF003BD653 /* UIBarButtonItem+Extension.m in Sources */,
 				60E0AF5327D368A600126FE9 /* BNRouterHelper.m in Sources */,
 				60E0AF2A27D367E200126FE9 /* SceneDelegate.m in Sources */,
-				60E0AF4D27D3689B00126FE9 /* UIView+Extend.m in Sources */,
 				60E0AF5927D3694200126FE9 /* MMUIView.m in Sources */,
-				60E0AF4C27D3689B00126FE9 /* UIImage+EditTool.m in Sources */,
+				607611152801B2CF003BD653 /* UIImage+EditTool.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
