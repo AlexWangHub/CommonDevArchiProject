@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (UIImage *)resizeConstraint:(CGSize)constraintSize;
 -(UIImage*)changeColor:(UIColor*)color;
 
++ (UIImage *)svgImageNamed:(NSString *)name size:(CGSize)size tintColor:(UIColor *)tintColor;
+
 @end
 
 NS_ASSUME_NONNULL_END

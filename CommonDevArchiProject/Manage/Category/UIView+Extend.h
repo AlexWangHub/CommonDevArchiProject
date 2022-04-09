@@ -43,6 +43,14 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)ceilAllSubviews;
 - (void)frameIntegral;
 
+- (void)removeAllSubViews;
+- (void)removeSubViewWithTag:(UInt32)uiTag;
+- (void)removeSubViewWithClass:(Class _Nonnull)oClass;
+- (UIView *_Nullable)viewWithClass:(Class _Nonnull)oClass;
+
+- (UIView *)filterBottomView;
+- (void)removeAllGestureRecognizer;
+
 @end
 
 NS_ASSUME_NONNULL_END

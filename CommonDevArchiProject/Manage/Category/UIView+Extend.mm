@@ -6,8 +6,45 @@
 //
 
 #import "UIView+Extend.h"
+#import "BNMainSubCardView.h"
 
 @implementation UIView (Extend)
+
+- (void)removeAllSubViews {
+    for (UIView *subView in self.subviews) {
+        [subView removeFromSuperview];
+    }
+}
+
+- (void)removeSubViewWithTag:(UInt32)uiTag {
+    UIView *subView = [self viewWithTag:uiTag];
+    while (subView) {
+        [subView removeFromSuperview];
+        subView = [self viewWithTag:uiTag];
+    }
+}
+
+- (void)removeSubViewWithClass:(Class)oClass {
+    for (UIView *subView in self.subviews) {
+        if ([subView isKindOfClass:oClass]) {
+            [subView removeFromSuperview];
+        }
+    }
+}
+
+- (UIView *)viewWithClass:(Class)oClass {
+    for (UIView *subView in self.subviews) {
+        if ([subView isKindOfClass:oClass]) {
+            return subView;
+        } else {
+            UIView *target = [subView viewWithClass:oClass];
+            if (target) {
+                return target;
+            }
+        }
+    }
+    return nil;
+}
 
 - (void)setWcOrigin:(CGPoint)aPoint {
     if (isnan(aPoint.x) || isnan(aPoint.y)) {
@@ -260,5 +297,23 @@
     self.frame = CGRectIntegral(self.frame);
 }
 
+- (UIView *)filterBottomView {
+    __block UIView *bottomView = self.subviews.firstObject;
+    [self.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        if ([obj isKindOfClass:[BNMainSubCardView class]]) {
+            bottomView = (obj.bottom > bottomView.bottom) ? obj : bottomView;
+        }
+    }];
+    return bottomView;
+}
+
+- (void)removeAllGestureRecognizer {
+    if (![self respondsToSelector:@selector(gestureRecognizers)])
+        return;
+
+    for (UIGestureRecognizer *gestureRecognizer in self.gestureRecognizers) {
+        [self removeGestureRecognizer:gestureRecognizer];
+    }
+}
 
 @end

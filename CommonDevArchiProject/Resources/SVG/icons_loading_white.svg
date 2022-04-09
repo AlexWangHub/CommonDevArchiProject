@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>9.元素/进度/暂停/White</title>
+    <defs>
+        <linearGradient x1="94.0869141%" y1="0%" x2="94.0869141%" y2="90.559082%" id="linearGradient-1">
+            <stop stop-color="#EDEDED" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#EDEDED" stop-opacity="0.3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="8.67370605%" x2="100%" y2="90.6286621%" id="linearGradient-2">
+            <stop stop-color="#EDEDED" offset="0%"></stop>
+            <stop stop-color="#EDEDED" stop-opacity="0.3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.9">
+        <g id="Elements/Bubbles/Picture&amp;Video---Loading" transform="translate(-50.000000, -50.000000)">
+            <g id="LoadingWithe" transform="translate(50.000000, 50.000000)">
+                <path d="M26,0 C40.3594035,0 52,11.6405965 52,26 C52,40.3594035 40.3594035,52 26,52 L26,47.45 C37.8465079,47.45 47.45,37.8465079 47.45,26 C47.45,14.1534921 37.8465079,4.55 26,4.55 L26,0 Z" id="路径" fill="url(#linearGradient-1)"></path>
+                <path d="M26,0 L26,4.55 C14.1534921,4.55 4.55,14.1534921 4.55,26 C4.55,37.8465079 14.1534921,47.45 26,47.45 L26,52 C11.6405965,52 0,40.3594035 0,26 C0,11.6405965 11.6405965,0 26,0 Z" id="路径" fill="url(#linearGradient-2)"></path>
+                <circle id="Oval" fill="#EDEDED" cx="26.325" cy="2.275" r="2.275"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
