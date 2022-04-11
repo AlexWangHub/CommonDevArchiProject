@@ -4,9 +4,15 @@
 
 一、Pod安装的工具framework：
 
-- YYKit
-- Colours
-- LazyScroll：自己的项目如果用 tableView 写相比直接画 View 开发速度会慢一些，但 tableView 好在可以自动回收。LazyScroll可以实现更方便自定义View的同时，也支持复用机制
+- YYKit：提供各种基础通用能力的库
+- Colours：一个提供比系统更全的颜色库
+- SDWebImage：https图片加载框架
+- SVGKit：SVG图加载框架
+- WCDB：通用强大的iOS本地数据库
+- AFNetworking：开源的http网络请求框架
+- ViaBus：订阅总线框架
+- FCAlertView：比系统alertView功能更强大的类
+- Aspects：业内公用Num.1的AOP框架
 
 二、文件分类分类：
 
