@@ -6,7 +6,6 @@
 //
 
 #import "UIView+Extend.h"
-#import "BNMainSubCardView.h"
 
 @implementation UIView (Extend)
 
@@ -295,16 +294,6 @@
 
 - (void)frameIntegral {
     self.frame = CGRectIntegral(self.frame);
-}
-
-- (UIView *)filterBottomView {
-    __block UIView *bottomView = self.subviews.firstObject;
-    [self.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        if ([obj isKindOfClass:[BNMainSubCardView class]]) {
-            bottomView = (obj.bottom > bottomView.bottom) ? obj : bottomView;
-        }
-    }];
-    return bottomView;
 }
 
 - (void)removeAllGestureRecognizer {

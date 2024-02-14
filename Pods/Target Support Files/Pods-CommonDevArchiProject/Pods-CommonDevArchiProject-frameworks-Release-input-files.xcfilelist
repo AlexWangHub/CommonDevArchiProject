@@ -1,3 +1,12 @@
 ${PODS_ROOT}/Target Support Files/Pods-CommonDevArchiProject/Pods-CommonDevArchiProject-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework
+${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework
 ${BUILT_PRODUCTS_DIR}/Colours/Colours.framework
+${BUILT_PRODUCTS_DIR}/FCAlertView/FCAlertView.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SVGKit/SVGKit.framework
+${BUILT_PRODUCTS_DIR}/ViaBus/ViaBus.framework
+${BUILT_PRODUCTS_DIR}/WCDB.objc/WCDBObjc.framework
+${BUILT_PRODUCTS_DIR}/WCDBOptimizedSQLCipher/sqlcipher.framework
 ${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework

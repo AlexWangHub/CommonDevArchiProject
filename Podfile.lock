@@ -1,24 +1,90 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Aspects (1.4.1)
+  - CocoaLumberjack (3.8.4):
+    - CocoaLumberjack/Core (= 3.8.4)
+  - CocoaLumberjack/Core (3.8.4)
   - Colours (5.13.0):
     - Colours/ObjC (= 5.13.0)
   - Colours/ObjC (5.13.0)
+  - FCAlertView (1.4.0)
+  - SDWebImage (5.18.11):
+    - SDWebImage/Core (= 5.18.11)
+  - SDWebImage/Core (5.18.11)
+  - SVGKit (3.1.1):
+    - CocoaLumberjack (~> 3.0)
+  - ViaBus (0.0.1)
+  - WCDB.objc (2.0.4):
+    - WCDB.objc/no-arc (= 2.0.4)
+    - WCDBOptimizedSQLCipher (~> 1.4.2)
+  - WCDB.objc/no-arc (2.0.4):
+    - WCDBOptimizedSQLCipher (~> 1.4.2)
+  - WCDBOptimizedSQLCipher (1.4.2)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - Aspects
   - Colours
+  - FCAlertView
+  - SDWebImage (~> 5.0)
+  - SVGKit (from `https://github.com/SVGKit/SVGKit.git`, branch `3.x`)
+  - ViaBus
+  - WCDB.objc
   - YYKit
 
 SPEC REPOS:
   trunk:
+    - AFNetworking
+    - Aspects
+    - CocoaLumberjack
     - Colours
+    - FCAlertView
+    - SDWebImage
+    - ViaBus
+    - WCDB.objc
+    - WCDBOptimizedSQLCipher
     - YYKit
 
+EXTERNAL SOURCES:
+  SVGKit:
+    :branch: 3.x
+    :git: https://github.com/SVGKit/SVGKit.git
+
+CHECKOUT OPTIONS:
+  SVGKit:
+    :commit: 4b98917a51f49a64502001e6e6bc36490823e465
+    :git: https://github.com/SVGKit/SVGKit.git
+
 SPEC CHECKSUMS:
+  AFNetworking: 19827bce8c8d25b16bea185837cb66976c23f8fe
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  CocoaLumberjack: df59726690390bb8aaaa585938564ba1c8dbbb44
   Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
+  FCAlertView: fdddd63381898c1d1a5a20c9f084fbd2c6d12f8b
+  SDWebImage: a3ba0b8faac7228c3c8eadd1a55c9c9fe5e16457
+  SVGKit: bddb3794357b4abf4b22fe5a1bd67df82f304732
+  ViaBus: 6b23f7a677eeafb31d6b90316ddff29d977cac47
+  WCDB.objc: da286748c22cfecfc2e317492e6dce5c4052345e
+  WCDBOptimizedSQLCipher: ef2be79fed278289a309ad0d4d707c55bf166d6d
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: b1197456ece27a02f4b13c11549af5d0c17a93dc
+PODFILE CHECKSUM: c62e4accdda331ad9a5952fb8e3c05d92ccc77fd
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.15.2
